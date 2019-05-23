@@ -1,20 +1,35 @@
 body {
-    margin:0
+    margin:0;
+    background-image: url("../images/dark-honeycomb.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #777777;
+    letter-spacing: 1.3px;
+    text-align: justify;
 }
 
-.container {
-    width: 70%;
+header {
     margin: 0 auto;
-    height: 40px;
+    overflow: auto;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#top {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
 }
 
 h1 {
     background-color: #4aaaa5;
-    width: 170px;
+    width: 200px;
     height: 40px;
     color: white;
     padding: 15px;
     float: left;
+    margin: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 nav {
@@ -22,15 +37,16 @@ nav {
 }
 
 nav ul {
-    margin: 0;
+    margin: 5px;
     padding: 0;
-    list-style: none;
+    list-style: none; 
 }
 
 nav li {
     display: inline-block;
     margin-left: 30px;
-    padding-top: 50px;
+    padding-top: 20px;
+    line-height: 15px; 
 }
 
 nav a{
@@ -38,11 +54,100 @@ nav a{
     color: #777777;
 }
 
-nav a::after{
-    content:'';
-    display: inline-block;
-    height: 20px;
-    width: 1px;
+.border-left {
+    border-left: 1px solid #777777;
+    padding-left: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #4aaaa5;
+    border-bottom: 1px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 15px;
+}
+
+img {
+    height: 200px;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 1200px;
+    margin-bottom: 55px;
+}
+
+#stuff {
+    padding: 30px;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
     background-color: #777777;
+    color: white;
+    height: 50px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color:white;
+    border:none;
+    width: 100px;
+    height: 50px;
+    font-size: 15pt;
+}
+textarea {
+    border-color: #dddddd;
+}
+.boxs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vw;
+   
     
 }
+.box {
+    width:250px;
+    height:250px;
+    margin: 0 20px 20px 0;
+    background-size:100% 100%;
+    position: relative;
+}
+
+.b1 {
+    background-image: url("../images/bread.jpg")
+}
+
+.b2 {
+    background-image: url("../images/food.jpg")
+}
+
+.b3 {
+    background-image: url("../images/music.jpg")
+}
+
+.b4 {
+    background-image: url("../images/swim.jpg")
+}
+
+.b5 {
+    background-image: url("../images/veg.jpg")
+}
+
+.banner {
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    width:100%;
+    height: 50px;
+    font-size: 22pt;
+    bottom: 1px;
+}
+
