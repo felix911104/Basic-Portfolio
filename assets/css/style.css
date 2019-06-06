@@ -139,6 +139,9 @@ textarea {
     background-image: url("../images/veg.jpg")
 }
 
+.b6 {
+    background-image: url("../images/red.png")
+}
 .banner {
     position: absolute;
     text-align: center;
@@ -148,5 +151,10 @@ textarea {
     height: 50px;
     font-size: 22pt;
     bottom: 1px;
+}
+#cc {
+    font-size:12pt;
+    border-left: none;
+    
 }
 
